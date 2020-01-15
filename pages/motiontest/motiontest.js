@@ -257,7 +257,7 @@ Page({
       //停止测评，主动停止，
       Dialog.confirm({
         title: '退出提示',
-        message: '提前退出评测，之前的回答就不会保存哦！'
+        message: '提前退出测评，需要重新回答所有问题哦！'
       }).then(() => {
         // on confirm 确认退出评测
         console.log("confirm exam exit")
