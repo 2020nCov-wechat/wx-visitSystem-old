@@ -250,7 +250,7 @@ Page({
           console.log("测评开始，播放" + this.data.videUrl);
           
           btn_type = 2;
-          this.setData({ btn_txt: "停止测评",}) 
+          this.setData({ btn_txt: "停止测评",})
         }
       })
     }else{
